@@ -8,7 +8,7 @@ void setup() {
    // We need to attach the servo to the used pin number 
    Servo1.attach(servoPin);
    Serial.begin(9600); 
-   Serial.println("ANNOUNCE servo_with_message5");
+   Serial.println("ANNOUNCE servo_with_message");
    Servo1.write(0); 
 }
 void loop(){ 
